@@ -12,10 +12,10 @@ jobs:
         run: |
           echo "Pulling and checking out the code from the repository..."
 
-      - name: Set up Node.js 18
+      - name: Set up Node.js 22
         uses: actions/setup-node@v6
         with:
-          node-version: '18'
+          node-version: '22'
 
       - name: Install npm packages
         run: npm install
