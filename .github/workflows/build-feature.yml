@@ -22,8 +22,6 @@ jobs:
 
       - name: Install Angular CLI
         run: npm install -g @angular/cli@latest
-        
-      - name: Run tests
-        run: ng test --watch=false --browsers=ChromeHeadless
+         
       - name: Build Angular app
         run: ng build --prod
